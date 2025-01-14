@@ -40,7 +40,7 @@ html{
 
 }
 
-.container-conten{
+.container-conten{ 
     background-color: rgb(235, 230, 230);
     display: flex;
     justify-content: center;
@@ -48,74 +48,24 @@ html{
     height: 80vh;
 }
 
-.a-conten{
-    color: black;
-    font-size: 20px;
-    width: 295px;
+.text-center{
+    padding-top: 15px;
+    margin-bottom: 8px;
     display: flex;
-    justify-content:center;
+    justify-content: center;
     align-items: center;
 }
 
 .img-conten:hover{
-background-color:black;
  transition: .5s ease-in-out;
  transition-delay: .4s;
  border-radius: 80px;
-
-}
-
-.img-konten:hover{
-    background-color:black;
-     transition: .7s ease-in-out;
-     transition-delay: .4s;
-     border-radius: 80px;
-    }
-
-.img-co:hover{
-background-color:black;
-transition: .7s ease-in-out;
-transition-delay: .4s;
-border-radius: 80px;
-}
-
-.img-ko:hover{
-background-color:black;
-transition: .7s ease-in-out;
-transition-delay: .4s;
-border-radius: 80px;  
 }
 
 .img-conten{
-    padding: 10px;
-    margin:5%;
-    width: 100%;
-    height: 100%;
-    border-radius: 80px;
-       
-}
-
-.img-konten{
-padding: 10px;
-margin:5%;
-width: 100%;
-height: 100%;
-border-radius: 80px;
-}
-
-.img-co{
-padding: 10px;
-margin:5%px;
-width: 100%;
-height: 100%;
-border-radius: 80px;
-}
-
-.img-ko{
-    padding: 10px;
-    margin:5%px;
-    width: 100%;
-    height: 100%;
+    padding: 30px;
+    margin:10px;
+    width:80%;
     border-radius: 80px;
 }
 
